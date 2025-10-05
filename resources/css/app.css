@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Poppins', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+        
+    --font-philosopher: 'Philosopher', sans-serif; /* Tambahin custom font */
+
+    --color-primary: #1D4ED8;
+    --color-light: #F9F9F9;
+    --color-dark: #212121;
+    --color-purple: #7A3A8E;
+}
