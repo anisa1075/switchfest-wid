@@ -126,10 +126,10 @@
 
             <!-- Button (desktop) -->
             <div class="hidden lg:flex font-medium gap-4">
-                <button>Sign In</button>
-                <button class="bg-gradient-to-r from-[#7E4190] to-[#AD74C3] text-white px-4 py-2 rounded-[7px]">
+                <a href="/login" class="cursor-pointer">Sign In</a>
+                <a href="/register" class="bg-gradient-to-r cursor-pointer from-[#7E4190] to-[#AD74C3] text-white px-4 py-2 rounded-[7px]">
                     Sign Up
-                </button>
+                </a>
             </div>
 
             <!-- Hamburger (mobile) -->
@@ -151,9 +151,9 @@
         <a href="/donasi" class="hover:text-[#AD74C3]">Donasi</a>
         <a href="/contact" class="hover:text-[#AD74C3]">Contact</a>
         <div class="flex flex-col gap-4 mt-4">
-            <button class="border border-[#7E4190] text-[#7E4190] px-4 py-2 rounded-[7px]">Sign In</button>
-            <button class="bg-gradient-to-r from-[#7E4190] to-[#AD74C3] text-white px-4 py-2 rounded-[7px]">Sign
-                Up</button>
+            <a href="/login" class="border border-[#7E4190] text-[#7E4190] px-4 py-2 rounded-[7px] cursor-pointer">Sign In</a>
+            <a href="/register" class="bg-gradient-to-r from-[#7E4190] to-[#AD74C3] text-white px-4 py-2 rounded-[7px] cursor-pointer">Sign
+                Up</a>
         </div>
     </div>
 
