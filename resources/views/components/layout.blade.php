@@ -125,7 +125,7 @@
             </nav>
 
             <!-- Button (desktop) -->
-            <div class="hidden lg:flex font-medium gap-4">
+            <div class="hidden lg:flex lg:items-center lg:justify-center font-medium gap-4">
                 <a href="/login" class="cursor-pointer">Sign In</a>
                 <a href="/register" class="bg-gradient-to-r cursor-pointer from-[#7E4190] to-[#AD74C3] text-white px-4 py-2 rounded-[7px]">
                     Sign Up

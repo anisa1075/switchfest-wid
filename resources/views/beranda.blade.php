@@ -61,7 +61,7 @@
         <div class="layout">
             <div class="lg:flex justify-between items-center mt-[4rem]">
                 <div>
-                    <button class="font-normal text-[.9rem] border-1 rounded-3xl py-2 px-4">Lihat Semua Artikel</button>
+                    <a href="/artikels" class="font-normal text-[.9rem] border-1 rounded-3xl py-2 px-4">Lihat Semua Artikel</a>
                 </div>
                 <h2 class=" text-[#212121] font-bold text-[1.8rem] lg:text-right text-left mt-2 lg:mt-0">Ringkasan Fakta <br><span
                         class="text-[#663A66]">
@@ -221,10 +221,10 @@
                             </div>
                         </div>
                     </div>
-                    <button
+                    <a href="/pelatihan"
                         class="bg-gradient-to-b mx-auto from-[#7E4190] to-[#AD74C3] text-white px-6 py-2 rounded-[10px] text-[1rem] cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:from-[#AD74C3] hover:to-[#7E4190]">
                         Lihat Semua Program
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -242,10 +242,10 @@
                         yang berdampak besar. Bantu perempuan dan anak
                         perempuan mendapatkan akses pendidikan, perlindungan, dan kesempatan yang adil.</p>
                     <div>
-                        <button
+                        <a href="/donasi"
                             class="bg-gradient-to-b from-[#7E4190] to-[#AD74C3] text-white px-6 py-2 rounded-[7px] text-[1rem] cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:from-[#AD74C3] hover:to-[#7E4190]">
                             Mulai Donasi
-                        </button>
+                        </a>
                     </div>
                 </div>
 

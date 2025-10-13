@@ -1,5 +1,5 @@
 <x-layout :title="$title">
-    <section class="mt-[2rem]">
+    <section class="mt-[2rem] p-10">
         <div class="layout mx-auto px-6">
             <!-- Gambar artikel -->
             <img src="{{ $artikel['image'] }}" alt="Logo WID" class=" w-full h-[600px] rounded-3xl">
